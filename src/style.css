@@ -1,0 +1,57 @@
+body {
+  font-family: "Cousine", monospace;
+  display: flex;
+  flex-direction: column;
+  background: #6c4f58;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.content {
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  border: 1.5px solid #392932;
+  box-shadow: #45323cc8 7px 7px 0px;
+  width: 370px;
+  margin-top: 40px;
+  padding: 10px 10px 0 10px;
+  color: #392932;
+}
+
+h2 {
+  font-size: 23px;
+  padding-left: 10px;
+}
+
+.buttons {
+  text-align: center;
+  padding: 10px;
+}
+
+button {
+  background: #6c4f58;
+  font-family: "Cousine", monospace;
+  border: 1.5px solid #392932;
+  color: #392932;
+  cursor: pointer;
+  padding: 5px 15px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #71555d;
+}
+
+.credits p {
+  font-size: 12px;
+  text-align: center;
+  padding-top: 10px;
+  color: #39293290;
+}
+
+a {
+  color: #39293290;
+  text-underline-offset: 2px;
+  text-decoration-color: #39293222;
+}
